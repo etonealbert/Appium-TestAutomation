@@ -1,0 +1,10 @@
+desired_cap = {
+  "platformName": "iOS",
+  "platformVersion": "14.4",  
+  "deviceName": "iPhone 11",  
+  "automationName": "XCUITest",
+  "app": "/path/to/your/.app or .ipa file",  # path to .app or .ipa file
+  "udid": "your device udid",  # You can get it from Xcode -> Window -> Devices and Simulators
+  "noReset": True,  # This will prevent the app from getting reset before the test
+}
+
